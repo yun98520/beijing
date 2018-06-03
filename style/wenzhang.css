@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#ECF9F1;
+}
+/* banner */
+.banner{
+  height: 190px;
+	background-size: 100% 100%;
+	background:url('../images/旅游开放日_banner.png') center no-repeat;
+}
+.nav{
+	height: 38px;
+	background-color: #4CACF8;
+}
+.nav1 .a2{
+	float: left;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 38px;
+}
+.nav1 .a1 img{
+	float: right;
+	margin-top: 7px;
+}
+.content1{
+	background-color: #ffffff;
+}
+.content1 h2{
+	color: #333333;
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 64px;
+}
+.content1 .wenhua{
+	margin-left: 182px;
+}
+.content1 h3{
+	color: #333333;
+	font-size: 14px;
+	margin-top: 43px;
+	margin-left: 52px;
+}
+.content1 p{
+	color: #656565;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 52px;
+	line-height: 26px;
+	text-indent: 2em;
+}
+.box2{
+	margin-left: 12px;
+}
+.dz1{
+	width: 906px;
+	height: 22px;
+	border-bottom: 1px solid  #38A5FB;
+}
+.box2 .dz{
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 22px;
+	text-align: center;
+	background-color: #38A5FB;
+}
+.box2 .cc{
+	color: #656565;
+	font-size: 14px;
+	margin-left: 52px;
+	line-height: 28px;
+	text-indent: 0;
+}
+.box3{
+	margin-top: 26px;
+	margin-left: 12px;
+}
+.box3 .cg1{
+	width: 906px;
+	height: 22px;
+	border-bottom: 1px solid  #38A5FB;
+}
+.box3 .cg{
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 22px;
+	text-align: center;
+	background-color: #38A5FB;
+}
+.box3 li{
+	color: #656565;
+	font-size: 14px;
+	margin-left: 52px;
+	line-height: 28px;
+	text-indent: 0;
+}
+.box4 {
+	margin-top: 26px;
+	margin-left: 12px;
+}
+.box4 .bm1{
+  width: 906px;
+	height: 22px;
+	border-bottom: 1px solid  #38A5FB;
+}
+.box4 .bm{
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 74px;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 22px;
+	text-align: center;
+	background-color: #38A5FB;
+}
+.box4 p{
+	line-height: 92px;
+}
+.box4 p button{
+	width: 160px;
+	height: 48px;
+	color: #307BB7;
+	font-size: 22px;
+	border: 1px solid #A6D0F1;
+	border-radius: 7px;
+	margin-right: 10px;
+	cursor: pointer;
+	background: url('../images/旅游开放日_文章页_jianbian.png') left center;
+}
+.img{
+	width: 916px;
+	height: 203px;
+	margin-left: 20px;
+	border: 1px solid #A6D0F1;
+}
+.img img{
+	margin-left: 14px;
+	margin-top: 17px;
+}
+/* footer */
+.footer{
+	background-color: #FFFFFF;
+	padding-top: 54px;
+}
+.footer p{
+	color: #656565;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 19px;
+}

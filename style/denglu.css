@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#F7F7F7 ;
+}
+/* banner */
+.banner{
+  height: 190px;
+	background-size: 100% 100%;
+	background:url('../images/旅游开放日_banner.png') center no-repeat;
+}
+.nav{
+	height: 38px;
+	background-color: #4CACF8;
+}
+.nav1 .a2{
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 38px;
+}
+/* content */
+.content h2{
+	color: #333333;
+	font-size: 22px;
+	margin-top: 63px;
+	margin-bottom: 16px;
+	padding-left: 18px;
+	margin-left: 56px;
+	border-left: 8px solid #EC670F;
+}
+.contents p{
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 51px;
+	padding-left: 94px;
+}
+.contents .p1{
+	padding-top: 46px;
+}
+.contents p span{
+	color: #FF0000;
+	margin-right: 15px;
+}
+.contents{
+	width: 809px;
+	height: 369px;
+	margin-left: 56px;
+	background-color: #FCFCFC;
+	box-shadow: 0 0 10px #E3E3E3;
+}
+button{
+	width: 178px;
+	height: 46px;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 48px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #2BB3F3;
+	border: 1px solid #2BB3F3;
+	margin-left: 94px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.footer p{
+	color: #656565;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 19px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>北京旅游网</title>
+	<link rel="stylesheet" href="style/gryy.css">
+	<link rel="stylesheet" href="style/repeat.css">
+</head>
+<body>
+	<div class="banner">
+	</div>
+	<div class="nav">
+		<div class="nav1 gWidth clearfix">
+			<a href="index.html" class="a2">参观预约的开放单位列表&gt;&gt;参观预约</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content1 gWidth">
+			<h2 class="h21">开放单位：天安门观礼台</h2>
+			<h2>开放时间：仅每月1日开放，其他时间不开放，具体开放时间以天安门地区管理委员会通知为准。</h2>
+		</div>
+		<div class="content2 gWidth clearfix">
+			<a href="###" class="p1">2015年1月1号 &nbsp;预约已满</a>
+			<a href="###" class="p2">2015年2月1号 &nbsp;还剩<span>130</span>个名额</a>
+			<a href="###" class="p3">2015年3月1号 &nbsp;还剩<span>30</span>个名额</a>
+			<a href="###" class="p4">2015年4月1号 &nbsp;还剩<span>30</span>个名额</a>
+			<div class="box">
+				<ul class="tabs">
+					<li>团队预约</li>
+					<li class="active">个人预约</li>
+				</ul>
+				<div class="contents">
+					<div class="show1">
+						<p>预约时间：<span class="span1">2015年2月1号</span></p>
+						<p>预约电话：<span  class="span2">010-85752818</span></p>
+						<p class="yq">友情提示：如您有团队预约意向，请直接拨打预约电话进行预约</p>
+					</div>
+					<div class="show">
+						<form action="" method="post">
+							<p class="ps">预约时间：<span>2015年2月1号</span></p>
+							<p class="select">预约时段： <select name="s1">
+								<option value="1">上午</option>
+								</select></p>
+							<p class="x">姓名：<input type="text" id="txt" name="search" value=""></p>
+							<p class="x">性别：<input type="radio" value="" name="usex">男
+							<input type="radio" value="" name="usex" checked>女</p>
+							<p class="x">民族：<input type="text" id="txt1" name="search" value=""><span>请输入正确的民族</span></p>
+							<p class="s">手机号：<input type="text" id="txt2" name="search" value=""><span>请输入正确的手机号</span></p>
+							<p class="s">验证码：<input type="text" id="txt3" name="search" value=""><button class="yzm">获取验证码</button></p>
+							<p class="sf">身份证号：<input type="text" id="txt4" name="search" value=""><i>请核对您的身份证号码，确保正确</i><span>请输入合法的身份证号码</span></p>
+							<a href="houtailiebiao.html"><button class="tj">提交</button></a>
+						</form>
+					</div>
+				</div>
+			</div>
+			<script src="libs/jquery.min.js"></script>
+			<script>
+			// jQuery代码实现
+			$('.tabs').find('li').click(function(){
+				$(this).addClass('active').siblings().removeClass('active');
+				$('.contents').find('div').eq($(this).index()).addClass('show').siblings().removeClass('show');
+			});
+			</script>
+			<script>
+						var key='133333333';
+				$('#txt1').val(key).focus(function(){
+					if($(this).val()==key){
+						$(this).val('');
+					}
+				}).blur(function(){
+					if($(this).val()==''){
+						$(this).val(key);
+					}
+				});
+	    </script>
+	    <script>
+				var key='请输入预约人的姓名';
+				$('#txt').val(key).focus(function(){
+					if($(this).val()==key){
+						$(this).val('');
+					}
+				}).blur(function(){
+					if($(this).val()==''){
+						$(this).val(key);
+					}
+				});
+	    </script>
+	     <script>
+						var key='1313333333';
+				$('#txt2').val(key).focus(function(){
+					if($(this).val()==key){
+						$(this).val('');
+					}
+				}).blur(function(){
+					if($(this).val()==''){
+						$(this).val(key);
+					}
+				});
+	    </script>
+	     <script>
+						var key='6956';
+				$('#txt3').val(key).focus(function(){
+					if($(this).val()==key){
+						$(this).val('');
+					}
+				}).blur(function(){
+					if($(this).val()==''){
+						$(this).val(key);
+					}
+				});
+	    </script>
+	     <script>
+						var key='请输入你的身份证号';
+				$('#txt4').val(key).focus(function(){
+					if($(this).val()==key){
+						$(this).val('');
+					}
+				}).blur(function(){
+					if($(this).val()==''){
+						$(this).val(key);
+					}
+				});
+	    </script>
+		</div>
+	</div>
+	<div class="footer gWidth">
+		<p>北京市旅游发展委员会官方网站 &copy;京ICP备13021917号</p>
+	</div>
+</body>
+</html>

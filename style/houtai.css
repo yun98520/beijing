@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #F6F6F6;
+}
+/* nav */
+.nav{
+	height: 69px;
+	background: url('../images/旅游开放日_后台加一个过渡页面_rjb.png') left center;
+}
+.nav1{
+	line-height: 69px;
+}
+.nav1 .right{
+	float: right;
+}
+.nav1 a{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nav1 span{
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 11px;
+}
+
+/* content */
+
+.content{
+	width: 904px;
+	height: 131px;
+	border-radius:3px ;
+	margin-top: 33px;
+	background-color: #FFFFFF;
+	border: 1px solid #DCE7EF;
+	box-shadow: 0 0 5px #DCE7EF;
+}
+.content p{
+	color: #333330;
+	font-size: 12px;
+	padding-left: 18px;
+}
+.content .p1{
+	line-height: 44px;
+}
+.content .p1 span{
+	color: #0D89E9;
+}
+.content .p2{
+	margin-top: 4px;
+	line-height: 22px;
+}
+.content .p3{
+	line-height: 22px;
+}
+.content .p3 .span1{
+	color: #656565;
+}
+.z{
+	width: 906px;
+	height: 58px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 30px;
+	background-color: #4AA1EC;
+	border-radius:5px ;
+	border: 1px solid  #4AA1EC;
+	cursor: pointer;
+}
+/* footer */
+.footer p{
+	color: #656565;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 540px;
+	padding-bottom: 19px;
+}
